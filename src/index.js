@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const newButton= document.querySelector('.button')
+  const newButton= document.querySelectorAll('input')[1]
   newButton.addEventListener('click',(e) => {e.preventDefault();})
 
   
